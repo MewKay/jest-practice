@@ -5,9 +5,9 @@ test("Upper case first letter", () => {
 });
 
 test("No upper case with number", () => {
-  expect(capitalize("21jumpstreet")).toBe("21jjumpstreet");
+  expect(capitalize("21jumpstreet")).toBe("21jumpstreet");
 });
 
 test("Yet another string to upper case first letter", () => {
-  expect(capitalize("retry")).toBe("retry");
+  expect(capitalize("retry")).toBe("Retry");
 });
