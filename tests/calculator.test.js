@@ -1,10 +1,10 @@
 import Calculator from "../code/calculator";
 
 test("calculator object should contains add, substract, divide and multiply functions", () => {
-  expect(Calculator()).toHaveProprety("add");
-  expect(Calculator()).toHaveProprety("substract");
-  expect(Calculator()).toHaveProprety("divide");
-  expect(Calculator()).toHaveProprety("multiply");
+  expect(Calculator()).toHaveProperty("add");
+  expect(Calculator()).toHaveProperty("substract");
+  expect(Calculator()).toHaveProperty("divide");
+  expect(Calculator()).toHaveProperty("multiply");
 });
 
 test("fifteen plus seventeen should equals thirty two", () => {
