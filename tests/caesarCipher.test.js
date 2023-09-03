@@ -1,5 +1,10 @@
 import caesarCipher from "../code/caesarCipher";
 
+test("should stay the same", () => {
+  expect(caesarCipher("I'm not encrypted", 0)).toBe("I'm not encrypted");
+  expect(caesarCipher("Me neither", 26)).toBe("Me neither");
+});
+
 test("should be able to wrap from z to a", () => {
   expect(caesarCipher("zanzibar", 1)).toBe("aboajcbs");
 });
